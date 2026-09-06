@@ -1,3 +1,4 @@
+# This is a multi-stage Dockerfile for building and running a TypeScript service.#
 FROM node:22-alpine AS builder
 
 WORKDIR /app
