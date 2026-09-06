@@ -1,0 +1,14 @@
+{
+  "name": "ts-docker-service",
+  "version": "1.0.0",
+  "description": "Production TypeScript service built with a 2-stage Dockerfile",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  }
+}
